@@ -1,11 +1,23 @@
+.home-section {
+  min-height: 100vh; /* Set tinggi minimum agar penuh layar */
+  background-color: #000305; /* Warna latar belakang */
+  padding: 80px 0;
+}
+
+.home-section img {
+  max-width: 60%; /* Membatasi ukuran gambar agar tidak terlalu besar */
+  height: auto;
+  background-blend-mode: multiply;
+}
 .jumbotron {
-  padding-top: 8rem;
-  background-color: #e2edff;
+  padding-top: 10rem;
+  background-color: #01060e;
 }
 #projects {
-  background-color: #e2edff;
+  background-color: #000308;
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 10rem;
+  background-color: #000308;
 }

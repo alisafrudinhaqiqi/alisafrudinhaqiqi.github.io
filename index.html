@@ -11,9 +11,9 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top fw-semibold fs-6">
       <div class="container">
-        <a class="navbar-brand" href="#">Ali Safrudin Haqiqi</a>
+        <a class="navbar-brand fs-3" href="#">Ali Safrudin Haqiqi</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,10 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Protfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -38,23 +41,99 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/1.jpg" alt="Ali SAfrudin Haqiqi" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Ali Safrudin Haqiqi</h1>
-      <p class="lead">Web Developer | Data Analyst</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#fff"
-          fill-opacity="10"
-          d="M0,192L48,208C96,224,192,256,288,234.7C384,213,480,139,576,133.3C672,128,768,192,864,213.3C960,235,1056,213,1152,176C1248,139,1344,85,1392,58.7L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+    <section id="home" class="home-section d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <!-- Kolom Teks -->
+          <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1">
+            <h1 class="display-4 text-light">Selamat Datang di Website Saya</h1>
+            <p class="lead text-light">Saya adalah Web Developer yang fokus pada Frontend Developer, WordPress dan Data Analysis.</p>
+            <a href="#about" class="btn btn-info w-50">About Me</a>
+          </div>
+          <div class="mt-3">
+            <a href="https://www.facebook.com/username" target="_blank" class="text-light me-3">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/username" target="_blank" class="text-light">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </div>
+          <!-- Kolom Gambar -->
+          <div class="col-lg-6 text-center order-1 order-lg-2">
+            <img src="img/1.jpg" alt="Home Image" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+    
     </section>
     <!-- Akhir Jumbotron-->
 
+       <!--My Skill-->
+       <section id="skills">
+        <div class="container text-light">
+          <div class="row text-center mb-3">
+            <div class="col">
+              <h2>My Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fab fa-php fa-3x"></i>
+                <h5>PHP</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fab fa-html5 fa-3x"></i>
+                <h5>HTML</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fab fa-css3-alt fa-3x"></i>
+                <h5>CSS</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fab fa-js fa-3x"></i>
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fab fa-bootstrap fa-3x"></i>
+                <h5>Bootstrap 5</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fas fa-database fa-3x"></i>
+                <h5>MySQL</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fas fa-chart-line fa-3x"></i>
+                <h5>Tableau</h5>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="text-center">
+                <i class="fab fa-figma fa-3x"></i>
+                <h5>Figma</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---Akhir My Skill-->
+
     <!-- About -->
     <section id="about">
-      <div class="container">
+      <div class="container text-light">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>About Me</h2>
@@ -63,31 +142,71 @@
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.Odit quas nostrum modi. Quidem sequi atque ipsam voluptas rerum dolorum idOdit quas nostrum modi. Quidem sequi atque ipsam voluptas rerum dolorum idOdit quas nostrum
-              modi. Quidem sequi atque ipsam voluptas rerum dolorum id Odit quas nostrum modi. Quidem sequi atque ipsam voluptas rerum dolorum id.
+              Saya Ali Safrudin Haqiqi, lulusan Sarjana Teknik Informatika dari Universitas Pelita Bangsa tahun 2024. Saya adalah pribadi yang disiplin, memiliki jiwa kepemimpinan, dan memiliki kemampuan memecahkan masalah yang baik.
             </p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt similique quam qui sed at perspiciatis quas facilis consequuntur possimus laudantium expedita totam, fuga, dolor quos.</p>
+            <p>Saya sangat antusias untuk berkarir di bidang Teknologi Informasi, seperti pengembangan web, analisis data, dan teknologi terkait di perusahaan sesuai dengan bidang dan kemampuan saya. Saya siap menerima tantangan dan peluang baru.</p>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#e2edff"
           fill-opacity="10"
           d="M0,192L48,170.7C96,149,192,107,288,106.7C384,107,480,149,576,138.7C672,128,768,64,864,69.3C960,75,1056,149,1152,176C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
-      </svg>
+      </svg>-->
     </section>
     <!-- Akhir About -->
 
-    <!-- Project -->
-    <section id="projects">
-      <div class="container">
+    <!--Services-->
+    <section id="services">
+      <div class="container text-light">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2>My Project</h2>
+            <h2>Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Layanan Web Development -->
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">Membangun situs web yang responsif dan menarik dengan teknologi terbaru seperti HTML, CSS, dan JavaScript. Fokus pada pengalaman pengguna yang optimal.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Layanan Data Analytics -->
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <div class="card-body">
+                <h5 class="card-title">Data Analytics</h5>
+                <p class="card-text">Menganalisis data untuk memberikan wawasan yang berharga dan mendukung pengambilan keputusan yang lebih baik. Menggunakan alat analisis data terkini.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Layanan UI/UX -->
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark text-light">
+              <div class="card-body">
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">Merancang antarmuka pengguna yang intuitif dan pengalaman pengguna yang menyenangkan. Mengutamakan estetika dan fungsionalitas dalam setiap desain.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir Services-->
+
+    <!-- Project -->
+    <section id="projects">
+      <div class="container text-light">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Protfolio</h2>
           </div>
         </div>
         <div class="row">
@@ -95,7 +214,7 @@
             <div class="card">
               <img src="project/2.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center fw-semibold">Company Profile</p>
               </div>
             </div>
           </div>
@@ -103,7 +222,7 @@
             <div class="card">
               <img src="project/3.png" class="card-img-top" alt="Project 2" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center fw-semibold">Dashboard Penjualan Barang</p>
               </div>
             </div>
           </div>
@@ -111,25 +230,25 @@
             <div class="card">
               <img src="project/4.png" class="card-img-top" alt="Project 3" />
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text text-center fw-semibold">Desain UI</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
           fill-opacity="10"
           d="M0,192L26.7,192C53.3,192,107,192,160,186.7C213.3,181,267,171,320,149.3C373.3,128,427,96,480,117.3C533.3,139,587,213,640,202.7C693.3,192,747,96,800,90.7C853.3,85,907,171,960,197.3C1013.3,224,1067,192,1120,165.3C1173.3,139,1227,117,1280,117.3C1333.3,117,1387,139,1413,149.3L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
         ></path>
-      </svg>
+      </svg>-->
     </section>
     <!-- Akhir Project-->
 
     <!-- Contact -->
     <section id="contact">
-      <div class="container">
+      <div class="container text-light">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
@@ -150,18 +269,18 @@
                 <label for="pesan" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="5"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Kirim</button>
+              <button type="submit" class="btn btn-info">Kirim</button>
             </form>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#0dcaf0"
           fill-opacity="10"
           d="M0,256L34.3,229.3C68.6,203,137,149,206,149.3C274.3,149,343,203,411,213.3C480,224,549,192,617,186.7C685.7,181,754,203,823,224C891.4,245,960,267,1029,250.7C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
-      </svg>
+      </svg>-->
     </section>
     <!-- Akhir Contact -->
 
