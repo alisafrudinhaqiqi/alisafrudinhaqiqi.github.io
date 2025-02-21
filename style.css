@@ -1,5 +1,5 @@
 .home-section {
-  min-height: 100vh; /* Set tinggi minimum agar penuh layar */
+  min-height: 80vh; /* Set tinggi minimum agar penuh layar */
   background-color: #000305; /* Warna latar belakang */
   padding: 80px 0;
 }
